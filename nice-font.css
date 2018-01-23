@@ -1,0 +1,6 @@
+﻿body {
+    font-family: 'Ohruri Regular', 'Koruri Regular', 'M+ 1p Regular' !important;
+}
+pre, code, kbd, samp, .CodeMirror, .file-info, .blob-num, .blob-code-inner {
+    font-family: 'Source Code Pro', 'M+ 1m Regular', monospace !important;
+}
