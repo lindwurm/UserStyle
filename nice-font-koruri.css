@@ -1,0 +1,10 @@
+body, p, h1, h2, h3, h4, h5, h6, li, th, td, dt, dd, blockquote, strong, textarea, b, .body, .yeartime, .calendarBG, .rid_flame, .pname_flame, .g-comment-quote, .a-text-quote, .article-text, .rich-formatting, .style-scope, .navbar, .css-901oao, .notion-page-content, .MuiMenuItem-root, .MuiTypography-body1, .MuiTypography-body2, .MuiButton-text, .MuiChip-root {
+	font-family: 'Ohruri', 'Koruri', 'M+ 1p' !important;
+}
+pre, code, kbd, samp, tt, .CodeMirror, .file-info, .blob-num, .blob-code-inner, .terminal, .line {
+    font-family: 'Cica', 'M+ 1mn', monospace !important;
+}
+
+.webPlayerContainer, .atvwebplayersdk-overlays-container {
+    font-family: 'MotoyaLMaru W3 mono' !important;
+}
