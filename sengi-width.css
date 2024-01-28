@@ -1,21 +1,26 @@
 @-moz-document domain("sengi.nicolas-constant.com") {
-    .main-display__stream-column[_ngcontent-c9] {
+    :root {
         @media screen and (min-width: 1921px) {
-            width: 495px;
+            --sengi-column-width: 485px;
         }
         @media screen and (max-width: 1920px) {
-            width: 335px;
+            --sengi-column-width: 330px;
         }
+    }
+    .main-display__stream-column[_ngcontent-c9] {
+        width: calc(8px + var(--sengi-column-width));
     }
     .stream-column[_ngcontent-c10],
     .stream-column__stream-header[_ngcontent-c10],
     .stream-column__stream-selector[_ngcontent-c10],
+    .stream-overlay[_ngcontent-c10],
     .stream-statuses[_ngcontent-c10] {
-        @media screen and (min-width: 1921px) {
-            width: 485px;
-        }
-        @media screen and (max-width: 1920px) {
-            width: 330px;
-        }
+        width: var(--sengi-column-width);
+    }
+    .sliding-column__right-display[_ngcontent-c10] {
+        left: calc(-1 * var(--sengi-column-width));
+    }
+    .sliding-column[_ngcontent-c10] {
+        width: calc(2 * var(--sengi-column-width));
     }
 }
